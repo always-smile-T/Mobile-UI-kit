@@ -1,16 +1,30 @@
 # template1
 
-A new Flutter project.
+Mình có làm theo một số thiết kế trên trang Figma
+mình sẽ để link ở đây [Mobile_UI_kit](https://www.figma.com/file/g9JAbn6kgULqRemEkEiD4g/Mobile-UI-kit-(Community)?node-id=151%3A921)
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+#### Hiện tại dự án này mình chỉ tạo về màn hình là chủ yêu, nên mình để rất ít chức năng:
 
-A few resources to get you started if this is your first Flutter project:
+### các giao diện hiện tại đã hoàn thành:
+* Login 
+* SignUp
+* Boxchat
+* List message
+### các giao diện sấp hoàn thành
+* Market 
+* Dashboard
+* Profile
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+### Screen shot
+![List_message](https://github.com/always-smile-T/Mobile-UI-kit/blob/master/layout_images/list_message.png)
+![Boxchat](https://github.com/always-smile-T/Mobile-UI-kit/blob/master/layout_images/message_sreen.png)
+
+#### bạn có thể xem mô tả dạng hình ảnh ở: 'layout_images'
+
+
+#### This project is still being developed by Thu.Thao
+
+© 2021 Thu.Thao| always-smile-T

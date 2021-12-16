@@ -11,10 +11,10 @@ mình sẽ để link ở đây [Mobile_UI_kit](https://www.figma.com/file/g9JAb
 * SignUp
 * Boxchat
 * List message
+* Profile
 ### các giao diện sấp hoàn thành
 * Market 
 * Dashboard
-* Profile
 
 
 

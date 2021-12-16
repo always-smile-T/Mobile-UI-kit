@@ -43,7 +43,7 @@ class _MessagesSreenState extends State<MessagesSreen> {
                     IconButton(
                       onPressed: (){
                         Navigator.of(context).pushAndRemoveUntil(
-                            MaterialPageRoute(builder: gotoHome), (route) => false);
+                            MaterialPageRoute(builder: (BuildContext context) => Template1Screen()), (route) => false);
                       },
                       icon: Image.asset('assets/images/comeback.png'),
                     ),
@@ -213,9 +213,6 @@ class _MessagesSreenState extends State<MessagesSreen> {
     ChatMessage(messageContent: "ehhhh, doing OK.", messageType: "receiver"),
     ChatMessage(messageContent: "Is there any thing wrong?", messageType: "sender"),
   ];*/
-  Widget gotoHome(BuildContext context) {
-    return Template1Screen();
-  }
 }
 /*class ChatMessage{ //component dor chat message demo
   String messageContent;

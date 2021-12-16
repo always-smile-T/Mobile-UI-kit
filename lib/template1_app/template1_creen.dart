@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:template1/template1_app/app_theme.dart';
 import 'package:template1/template1_app/main_function/Message/list_messages_screen.dart';
 
+import 'main_function/profile_sreen.dart';
+
 
 
 class Template1Screen extends StatefulWidget {
@@ -95,7 +97,7 @@ class Screen4 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: const  Center(child: Text("This function is being developing")),
+      child: const  ProfileSreen(),
     );
   }
 }

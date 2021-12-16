@@ -99,7 +99,7 @@ class _ListMessScreenState extends State<ListMessScreen> {
                   ),
                   onPressed: (){
                     Navigator.of(context).pushAndRemoveUntil(
-                        MaterialPageRoute(builder: gotoMessage), (route) => false);
+                        MaterialPageRoute(builder: (BuildContext context) => const MessagesSreen()), (route) => false);
                   } ,
                   style: TextButton.styleFrom(
                     onSurface: AppTheme.greenPrimary
@@ -115,8 +115,5 @@ class _ListMessScreenState extends State<ListMessScreen> {
     setState(() {
       _searchController.text = ''; //lay phu dinh
     });
-  }
-  Widget gotoMessage(BuildContext context) {
-    return const MessagesSreen();
   }
 }
